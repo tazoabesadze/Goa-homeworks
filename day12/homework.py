@@ -13,14 +13,14 @@
 # --------------
 # 2)
 
-# num = 1
-# sum_even = 0
+num = 1
+sum_even = 0
 
-# while num <= 10:
-#     if num %2 == 0:
-#         sum_even += num 
-#     num += 1 
-# print(sum_even)
+while num <= 10:
+    if num %2 == 0:
+        sum_even += num 
+    num += 1 
+print(sum_even)
 
 
 
@@ -28,23 +28,23 @@
 
 # 3)
 
-# i = 1
+i = 1
 
-# while i  <= 20:
-#     if i %3 == 0 and i %5 == 0:
-#         print(i)
-#     i += 1
+while i  <= 20:
+    if i %3 == 0 and i %5 == 0:
+        print(i)
+    i += 1
 
 # 4)
 
-# for i in range(1, 101):
-#     if i %5 == 0:
-#         print(i)
+for i in range(1, 101):
+    if i %5 == 0:
+        print(i)
 
 
 # 5)
 
-# for i in range(1, 20):
-#     if i %6 == 0:
-#         print(i)
+for i in range(1, 20):
+    if i %6 == 0:
+        print(i)
 
