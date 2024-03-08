@@ -13,58 +13,58 @@
 
 # 1)
 
-# i = 1
+i = 1
 
-# while i <= 10:
-#     print(i)
-#     i += 1
+while i <= 10:
+    print(i)
+    i += 1
 
 # 2)
 
-# for i in range(1,11):
-#     print(i)
+for i in range(1,11):
+    print(i)
 
 # 3)
 
-# num = float(input("please enter your number: "))
-# if num < 0:
-#     print("The number is less than zero")
-# elif num > 0:
-#     print("The number is greater than zero")
-# else:
-#     print("The number is zero")
+num = float(input("please enter your number: "))
+if num < 0:
+    print("The number is less than zero")
+elif num > 0:
+    print("The number is greater than zero")
+else:
+    print("The number is zero")
 
 # 4)
 
-# password = ""
-# while password != "abc123":
-#     password =input("enter your password: ")
+password = ""
+while password != "abc123":
+    password =input("enter your password: ")
 
-#     if password == "abc123":
-#         print("Access granted")
-#     else:
-#         print("Access denied")
+    if password == "abc123":
+        print("Access granted")
+    else:
+        print("Access denied")
 
 
 # 5)
 
-# i = 1
-# while i <= 10:
-#     print(i)
-#     i += 1
-#     if i == 6:
-#         break
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+    if i == 6:
+        break
 
 
 
 # 6)
 
-# num = int(input("enter your number 1 to 5: "))
+num = int(input("enter your number 1 to 5: "))
 
-# if num >= 1 and num <= 5:
-#     print("Valid input")
-# else:
-#     print("Invalid input")
+if num >= 1 and num <= 5:
+    print("Valid input")
+else:
+    print("Invalid input")
 
 
 
@@ -79,3 +79,4 @@ elif num %5 == 0:
     print("Buzz")
 else:
     print(num)
+    
