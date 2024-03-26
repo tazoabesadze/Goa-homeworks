@@ -15,19 +15,20 @@
 #გამოიძახეთ ეს ფუნქცია 5ჯერ, სხვადასხვა რიცხვებისთვის და დატესტეთ     --->
 
 
-       #"num" არის პარამეტრი (როცა ფუნქციას ვქმნით)
-# def num(num): 
-#     print(num * 3)
+#        "number" არის პარამეტრი (როცა ფუნქციას ვქმნით)
+# def num(number):
+#     number = int(input("enter a namber: "))
+#     print(number * 3)
 
-    # "4, 11, ..., 5" არის არგუმრნტი (როცა ფუნქციას გამოიძახებთ)
-# num(4)
-# num(11)
-# num(6)
-# num(7)
+#    "4, 11, ..., 5" არის არგუმრნტი (როცა ფუნქციას გამოიძახებთ)
+# num(3)
 # num(5)
+# num(11)
+# num(23)
+# num(9)
 
 
-#          d r a w    a   a p a r t a m e n t
+#        d r a w    a    a p a r t a m e n t
 
 # from turtle import*
 
@@ -90,7 +91,7 @@
 
 # exitonclick()
 
-
+# e n d    d r a w    a    a p a r t a m e n t
 
 #     test -->
 
