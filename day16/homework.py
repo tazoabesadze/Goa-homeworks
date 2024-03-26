@@ -7,14 +7,14 @@
 #    3) ფულის ახევა 
 
 def men():
-    men = int(input("რა კაცი ხარ: "))
+    man = int(input("რა კაცი ხარ: "))
 
-    if men == 1:
+    if man == 1:
         print("ცემა")
-    elif men == 2:
+    elif man == 2:
         print("დაძმაკაცება")
-    elif men == 3:
+    elif man == 3:
         print("ფულის ახევა")
     else:
         print("არასწორი ციფრია")
-men()
+man()
