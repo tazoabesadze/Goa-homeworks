@@ -27,15 +27,15 @@
 # num(23)
 # num(9)
        #"num" არის პარამეტრი (როცა ფუნქციას ვქმნით)
-def num(num): 
-    print(num * 3)
+# def num(num): 
+#     print(num * 3)
 
     # "4, 11, ..., 5" არის არგუმრნტი (როცა ფუნქციას გამოიძახებთ)
-num(4)
-num(11)
-num(6)
-num(7)
-num(5)
+# num(4)
+# num(11)
+# num(6)
+# num(7)
+# num(5)
 
 
 #        d r a w    a    a p a r t a m e n t
