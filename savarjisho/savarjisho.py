@@ -207,7 +207,7 @@
 #     print("2. login up")
 #     print("3. exit")
 
-#     person_choice = int(input("gtxovt chamonatvaliddan airchiot ert-erti:  "))
+#     person_choice = int(input("please enter your choise:  "))
 
 #     if person_choice == 1:
 #         print("sing up page")
@@ -218,9 +218,9 @@
 #         enter_password2 = input("enter your password egain:  ")
 
 #         if enter_password == enter_password2:
-#             print("tkven shexvedit acauntze")
+#             print("You are logged in to the account")
 #         else:
-#             print("tkven ver shexvedit acaumtze")
+#             print("You could not log in to your account")
 
 #     if person_choice == 2:
 #         print("login up")
@@ -230,12 +230,12 @@
 #         input_password = input("enter your password:  ")
 
 #         if input_name == enter_name and input_password == enter_password and input_gmail == enter_gmail:
-#             print("tkven gaiaret registracia")
+#             print("You have registered")
 #         else:
-#             print("tkven ver gaiaret registracia")
+#             print("You failed to register")
 
 #     if person_choice == 3:
-#         print("EXIT. gmadlobt rom sargeblobdit cveni servisit")
+#         print("EXIT. Thank you for using our service")
 #     else:
-#         print("araswori cipria. gtxovt sheiyvanot tavidan")
+#         print("Invalid digit")
 #     break
