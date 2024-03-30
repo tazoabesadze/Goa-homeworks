@@ -201,41 +201,41 @@
 # შექმრნით სარეგიატრაციო ფორმა. რეგისტრაცია და ლოგინი!   -->
 # მოვთხოვოთ: სახელი, გვარი, მეილი და პაროლი.
 
-while True:
+# while True:
 
-    print("1. sign up")
-    print("2. login up")
-    print("3. exit")
+#     print("1. sign up")
+#     print("2. login up")
+#     print("3. exit")
 
-    person_choice = int(input("gtxovt chamonatvaliddan airchiot ert-erti:  "))
+#     person_choice = int(input("gtxovt chamonatvaliddan airchiot ert-erti:  "))
 
-    if person_choice == 1:
-        print("sing up page")
-        enter_name = input("enter your name:  ")
-        enter_surname = input("enter your surname:  ")
-        enter_gmail =  input("enter your gmail:  ")
-        enter_password = input("enter your password:  ")
-        enter_password2 = input("enter your password egain:  ")
+#     if person_choice == 1:
+#         print("sing up page")
+#         enter_name = input("enter your name:  ")
+#         enter_surname = input("enter your surname:  ")
+#         enter_gmail =  input("enter your gmail:  ")
+#         enter_password = input("enter your password:  ")
+#         enter_password2 = input("enter your password egain:  ")
 
-        if enter_password == enter_password2:
-            print("tkven shexvedit acauntze")
-        else:
-            print("tkven ver shexvedit acaumtze")
+#         if enter_password == enter_password2:
+#             print("tkven shexvedit acauntze")
+#         else:
+#             print("tkven ver shexvedit acaumtze")
 
-    if person_choice == 2:
-        print("login up")
+#     if person_choice == 2:
+#         print("login up")
 
-        input_name = input("enter your name:  ")
-        input_gmail = input("enter your gmil:  ")
-        input_password = input("enter your password:  ")
+#         input_name = input("enter your name:  ")
+#         input_gmail = input("enter your gmil:  ")
+#         input_password = input("enter your password:  ")
 
-        if input_name == enter_name and input_password == enter_password and input_gmail == enter_gmail:
-            print("tkven gaiaret registracia")
-        else:
-            print("tkven ver gaiaret registracia")
+#         if input_name == enter_name and input_password == enter_password and input_gmail == enter_gmail:
+#             print("tkven gaiaret registracia")
+#         else:
+#             print("tkven ver gaiaret registracia")
 
-    if person_choice == 3:
-        print("EXIT. gmadlobt rom sargeblobdit cveni servisit")
-    else:
-        print("araswori cipria. gtxovt sheiyvanot tavidan")
-    break
+#     if person_choice == 3:
+#         print("EXIT. gmadlobt rom sargeblobdit cveni servisit")
+#     else:
+#         print("araswori cipria. gtxovt sheiyvanot tavidan")
+#     break
